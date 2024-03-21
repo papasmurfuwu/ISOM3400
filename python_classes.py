@@ -12,3 +12,5 @@ class Rectangle():
 
 square1 = Rectangle(10, 10)
 square1.area()
+
+print((9755-4860)/(710-160))
