@@ -98,12 +98,12 @@ app.layout = html.Div([
                                 html.Div([
                                         html.Br(),
                                         html.H2(children='', style={'textAlign':'center'}),
-                                                dcc.Graph(id='state-graph')],
+                                                dcc.Graph()],
                                         style={'height':'50%', 'float':'centre', 'display': 'inline-block'},
                                 ),
                          html.Div([
                                         html.H2(children='', style={'textAlign':'center'}),
-                                                dcc.Graph()],
+                                                dcc.Graph(id='state-graph')],
                                         style={'height':'50%', 'float':'centre', 'display': 'inline-block'}
                                 )], 
                         
